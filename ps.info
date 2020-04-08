@@ -1,0 +1,35 @@
+name = PS
+description = Theme for Parket Service
+core = 7.x
+
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/grid.css
+stylesheets[all][] = css/views.css
+stylesheets[all][] = css/fontawesome.css
+stylesheets[all][] = css/formstyler.css
+stylesheets[all][] = css/mobilepanel.css
+stylesheets[all][] = css/responsive.css
+
+scripts[] = js/jquery.formstyler.js
+scripts[] = js/tweenmax.js
+scripts[] = js/calculator.js
+scripts[] = js/mobilepanel.js
+scripts[] = js/main.js
+scripts[] = js/smoothscroll.js
+
+regions[header]         = Header
+regions[slider]         = Slider
+regions[sidebar_first]  = Sidebar First
+regions[content_top]    = Content Top
+regions[content]        = Content
+regions[sidebar_second] = Sidebar Second
+regions[content_bottom] = Content Bottom
+regions[logos]          = Logos
+regions[footer]         = Footer
+regions[mobile_panel]   = Mobile Panel
+
+; Information
+version = "1.0"
+project = "drupal"
+
+

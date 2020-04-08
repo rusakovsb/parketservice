@@ -1,0 +1,146 @@
+/*------------------------------------------*/
+/* < 1200px
+/*------------------------------------------*/
+
+@media all and (max-width : 1199px) {
+	
+#logo {
+	font-size: 24px;
+}
+
+#block-system-main-menu ul li a {
+   font-size: 15px;
+}
+
+}
+
+/*------------------------------------------*/
+/* < 992px
+/*------------------------------------------*/
+
+@media all and (max-width : 991px) {
+	
+h1 {
+    font-size: 24px;
+}
+	
+#block-system-main-menu,
+.block-search,
+#block-views-slider-block,
+#sidebar-first,
+#sidebar-second,
+.product__compare-icon {
+	display: none;
+}
+
+.front .region-slider,
+.two-sidebars #page, 
+.views-exposed-widgets,
+.region-footer {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.front .region-slider,
+.two-sidebars #page, 
+.region-footer,
+#page,
+.node-product .field-label-inline {
+    flex-direction: column;
+}
+
+#logo {
+    font-size: 20px;
+}
+
+#block-block-1,
+#page-container,
+#bottom-container {
+    padding: 0;
+}
+
+#wrapper,
+.two-sidebars .region-content {
+    flex: 1 1 100%;
+    max-width: none;
+}
+
+.node-product .group-prices,
+.field-name-field-product-buy {
+	position: relative;
+	top: auto;
+	left: auto;
+}
+
+.node-product .field-name-field-product-img {
+    width: auto;
+}
+
+.field-name-field-product-buy {
+	margin: 20px 0;
+}
+
+.flex-grid-item .views-field-name,
+.flex-grid-item .views-field-field-product-name { 
+    font-size: 17px;
+}
+
+.node-article .field-name-field-article-img {
+    float: none;
+    margin: 0 0 20px 0;
+}
+
+.node-article .field-name-field-article-img img { 
+    width: 100%;
+    height: auto;
+}
+
+.node-product .field-label-inline .field-label {
+    flex: 1 1 100%;
+}
+
+#site-name { 
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+h3 {
+    font-size: 19px;
+    margin: 0 0 10px 0;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+h5 {
+    font-size: 17px;
+    margin: 0 0 10px 0;
+}
+
+h6 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.block-title {
+    font-size: 20px;
+}
+
+#footer .block {
+    padding: 5px 0;
+}
+
+}
+
+

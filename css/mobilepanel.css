@@ -1,0 +1,149 @@
+/*-------------------------------------------*
+/* Mobile Menu
+/*-------------------------------------------*/
+
+#mobile-panel .menu a {
+    display: block;
+    color: #fff;    
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+#mobile-panel .menu a.active-trail {
+    color: #fe773e;
+}
+
+/*-------------------------------------------*
+/* Menu Icon
+/*-------------------------------------------*/
+
+#menu-icon {
+    display: none;
+} 
+
+#menu-icon {
+    position: relative;
+    width: 25px;
+    height: 19px;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#menu-icon span {
+    background-color: #fff;
+    width: 25px;
+    height: 3px;
+    position: absolute;
+    left: 0; 
+    transition: 0.2s linear;
+}
+
+#menu-icon span:nth-child(1) {
+    top: 0;
+}
+
+#menu-icon span:nth-child(2) {
+    top: 8px;
+}
+
+#menu-icon span:nth-child(3) {
+    bottom: 0;
+}
+
+#menu-close-icon {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#menu-close-icon span {
+    background-color: #fff;
+    width: 25px;
+    height: 3px;
+    position: absolute;
+    left: 0; 
+    top: 50%;
+}
+
+#menu-close-icon span:nth-child(1) {
+    transform: rotate(-45deg);
+}
+
+#menu-close-icon span:nth-child(2) { 
+    transform: rotate(45deg);
+}
+
+/*-------------------------------------------*
+/* Mobile Panel
+/*-------------------------------------------*/
+
+#mobile-panel {
+    background-color: #211b18;
+    position: fixed;
+	z-index: 599;
+    top: 0;
+    right: 0;
+	height: 100%;
+    padding: 30px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: translate3d(100%, 0, 0); 
+    box-shadow: -3px 0px 3px 0px rgba(0, 0, 0, 0); 
+    will-change: transform, box-shadow;    
+}
+
+#mobile-panel-header {
+    margin: 0 0 30px 0;
+	  text-align: right;
+}
+
+#mobile-panel .block {
+    margin: 0 0 30px 0;
+}
+
+#mobile-panel .block-title {
+    font-size: 20px;
+	margin: 0 0 10px 0;
+}
+
+/*-------------------------------------------*
+/* Responsive styles
+/*-------------------------------------------*/
+
+@media (min-width: 1200px) {
+  #mobile-panel {
+	  width: 25%;
+  }
+}
+
+@media all and (max-width: 1199px) {  
+  #mobile-panel {
+	  width: 33%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #menu-icon {
+    display: inline-block;
+  }
+  #mobile-panel {
+	  width: 50%;
+  }
+}
+
+@media all and (max-width: 767px) {	
+  #mobile-panel {
+	  width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
